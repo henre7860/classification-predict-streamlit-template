@@ -1,0 +1,33 @@
+Below we have test tweets to use in the to check if everything is working.
+
+Sentiment 1 tweets:
+
+1. PolySciMajor EPA chief doesn't think carbon dioxide is main cause of global warming and.. wait, what!? https://t.co/yeLvcEFXkC via @mashable
+2. It's not like we lack evidence of anthropogenic global warming
+3. #TodayinMaker# WIRED : 2016 was a pivotal year in the war on climate change https://t.co/44wOTxTLcD
+4. RT @SoyNovioDeTodas: It's 2016, and a racist, sexist, climate change denying bigot is leading in the polls. #ElectionNight
+5. Worth a read whether you do or don't believe in climate change https://t.co/ggLZVNYjun https://t.co/7AFE2mAH8j
+
+Sentiment 0 tweets:
+
+1. Calum: *tweets abt reunitingish w the cast*\n-sees replies begging him to come to their countries-\nCalum: *goes back to rting climate change*
+2. we also met this guy, he let us in on some truth about climate change and gay people not existing https://t.co/Q7yOMcMZaj
+3. We’ ve dealt with simple issues like climate change and energy policy. Now the complex issues. Mal vs Tones. #qanda
+4. @Jnp_Ftw are these the same scientists that denounce climate change? It's not a choice
+5. RT @andrewsharp: Win probability is bullshit man. I saw the NBA Finals and that's when I knew, global warming isn't real
+
+Sentiment -1 tweets:
+
+1. Sally Kohn’s latest evidence of climate change proves she is ‘not a smart person’ https://t.co/MhkzoGL9Vt via @twitchyteam Need we say more
+2.  @realDonaldTrump Carbon Tax is a Globalist idea to enslave the world's population. It is the whole reason for propagating global warming!
+3. @CBSNews You're not going to get away with this, we are going to call you out every single time. All pages are gone inc. fake climate change
+4. RT @tamorley: @ZekeJMiller But why a carbon tax? Isn't all that climate change stuff is hokum?
+5. RT @MR_BREXIT: Good news that @realDonaldTrump is looking to ditch the Paris agreement and bust open the climate change #myth #maga #stepfoÃ¢â‚¬Â¦
+
+Sentiment 2 tweets:
+
+1. 2050 climate targets: nations are playing the long game in fighting global warming https://t.co/dnegw2vfJd via @ConversationEDU
+2. U.S. environmental agency chief says humans contribute to global warming - https://t.co/aSsz4eszXs	
+3. 80% of GHG via resevoirs are methane. Resevoirs play a substantial role in global warming. https://t.co/CNHiU818Ky https://t.co/58nmAFxcmP
+4. RT @PopSci: Ten of the ugliest animals threatened by climate change https://t.co/u67EVjeUnO https://t.co/ihOhxlqfTs
+5. RT @washingtonpost: The Alaskan tundra is filling the atmosphere with carbon dioxide, worsening climate change https://t.co/nSOimuwEax
