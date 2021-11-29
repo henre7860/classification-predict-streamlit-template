@@ -47,7 +47,7 @@ def main():
 	
 	# Creating sidebar with selection box -
 	# you can create multiple pages this way
-	options = ["Tweet Analyzer", "General Info", "Data Info"]
+	options = ["Tweet Analyzer", "General Info", "Data Processing", "EDA", "About us"]
 	selection = st.sidebar.selectbox("Choose Option", options)
 
 	# Building out the "Information" page
@@ -108,7 +108,7 @@ def main():
 		"\n\r2 News: the tweet links to factual news about climate change")
 
 	# Creating Data info page.
-	if selection == "Data Info":
+	if selection == "Data Processing":
 		st.subheader("Data processing")
 		st.markdown("Here we will look how the data was processed in order to create a prediction model.\
 		\n\rThe following steps will be used to clean the data:")# +
@@ -138,6 +138,25 @@ def main():
 		st.write("As we can see from the above cleaned tweets they do differ from the original tweets, we use this cleaned data to create \
 			a machine learning model.")
 
+	if selection == "About us":
+		st.write('This project was created by Team 9 for the Classification project at Explore Data Science Acadamy.\
+			All data used to create this project was obtain on Kaggle at https://www.kaggle.com/c/202122-climate-change-belief-analysis.')
+		st.subheader("Team 9: Members")
+		st.write("Malibongwe Shange"+
+				"\n\r Tsepo lourance" +
+				"\n\r Henre van den berg" +
+				"\n\r Joas Sebola Tsiri" +
+				"\n\r Christinah Chokwe")
+
+
+			
+	#Creating EDA page
+	if selection == "EDA":
+
+		st.subheader("Pie Chart")
+		st.write("Below we can see the distribution of the data with a pie chart.")
+		st.info("insert pie chart here")
+
 		st.subheader("Wordcloud")
 		st.markdown("Below you can select a sentiment and a Wordcloud with the 100 most frequent words will be created,\
 		 			thereby we can see which words is most associated with which sentiment.")
@@ -154,12 +173,16 @@ def main():
 		elif select_sentiment == '2 News':
 			wd = "resources/imgs/news_wordcloud.png"
 			#cd = "2 News Wordcloud"
-
 		
 
 		if st.button("Create Wordcloud"):
 			wc_image = Image.open(wd)
 			st.success(st.image(wc_image))
+
+
+
+
+
 
 
 # Required to let Streamlit instantiate our web app.  
