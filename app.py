@@ -94,7 +94,14 @@ def main():
 			# Try loading in multiple models to give the user a choice
 			predictor = joblib.load(open(os.path.join(model),"rb"))
 			prediction = predictor.predict(vect_text)
-			
+			if prediction == 1:
+				prediction = 'Pro'
+			elif prediction == -1:
+				prediction ="Anti"
+			elif prediction == 0:
+				prediction = "Neutral"
+			elif prediction == 2:
+				prediction = "News"
 
 			# When model has successfully run, will print prediction
 			# You can use a dictionary or similar structure to make this output
@@ -102,10 +109,10 @@ def main():
 			st.success("Sentimanet analysis: {}".format(prediction))
 
 		st.subheader("Sentiment Info")
-		st.info("1 Pro: the tweet supports the belief of man-made climate change"+
-		"\n\r0 Neutral: the tweet neither supports nor refutes the belief of man-made climate change"+
-		"\n\r-1 Anti: the tweet does not believe in man-made climate change"+
-		"\n\r2 News: the tweet links to factual news about climate change")
+		st.info("- Pro: the tweet supports the belief of man-made climate change"+
+		"\n\r- Neutral: the tweet neither supports nor refutes the belief of man-made climate change"+
+		"\n\r- Anti: the tweet does not believe in man-made climate change"+
+		"\n\r- News: the tweet links to factual news about climate change")
 
 	# Creating Data info page.
 	if selection == "Data Processing":
@@ -140,10 +147,10 @@ def main():
 
 	if selection == "About us":
 		st.write('This project was created by Team 9 for the Classification project at Explore Data Science Acadamy.\
-			All data used to create this project was obtain on Kaggle at https://www.kaggle.com/c/202122-climate-change-belief-analysis.')
+			All data used to create this project was obtain on Kaggle at [this link](https://www.kaggle.com/c/202122-climate-change-belief-analysis.)')
 		st.subheader("Team 9: Members")
 		st.write("Malibongwe Shange"+
-				"\n\r Tsepo lourance" +
+				"\n\r Tsepo Lourance" +
 				"\n\r Henre van den berg" +
 				"\n\r Joas Sebola Tsiri" +
 				"\n\r Christinah Chokwe")
@@ -155,7 +162,9 @@ def main():
 
 		st.subheader("Pie Chart")
 		st.write("Below we can see the distribution of the data with a pie chart.")
-		st.info("insert pie chart here")
+		#st.info("insert pie chart here")
+		st.image(Image.open("resources/imgs/pie_chart_sentiment.jpg"))
+		
 
 		st.subheader("Wordcloud")
 		st.markdown("Below you can select a sentiment and a Wordcloud with the 100 most frequent words will be created,\
