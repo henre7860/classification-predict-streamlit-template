@@ -163,10 +163,19 @@ def main():
 				"\n\r Joas Sebola Tsiri" +
 				"\n\r Christinah Chokwe")
 
+		edsa_graphic = Image.open("resources/imgs/edsa.jpg")
+		st.image(edsa_graphic)
+
+		
+
 
 			
 	#Creating EDA page
 	if selection == "EDA":
+
+		eda_graphic = Image.open("resources/imgs/eda.jpg")
+		st.image(eda_graphic)
+
 
 		st.subheader("Pie Chart")
 		st.write("Below we can see the distribution of the data with a pie chart.")
