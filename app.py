@@ -50,6 +50,11 @@ def main():
 	options = ["Tweet Analyzer", "General Info", "Data Processing", "EDA", "About us"]
 	selection = st.sidebar.selectbox("Choose Option", options)
 
+
+	
+
+
+
 	# Building out the "Information" page
 	if selection == "General Info":
 		st.info("General Information")
@@ -68,6 +73,9 @@ def main():
 
 	# Building out the predication page
 	if selection == "Tweet Analyzer":
+
+		app_graphic = Image.open("resources/imgs/app_graphic.jpg")
+		st.image(app_graphic)
 
 		st.subheader("Select Classification Model")
 	
