@@ -158,10 +158,18 @@ def main():
 			All data used to create this project was obtain on Kaggle at [this link](https://www.kaggle.com/c/202122-climate-change-belief-analysis.)')
 		st.subheader("Team 9: Members")
 		st.write("Malibongwe Shange"+
-				"\n\r Tsepo Lourance" +
-				"\n\r Henre van den berg" +
+				"\n\r Tsepo Lourance Sehaole" +
+				"\n\r Henre van den berg" + 
 				"\n\r Joas Sebola Tsiri" +
 				"\n\r Christinah Chokwe")
+
+
+		st.image("resources/imgs/Joas_image.jpg",caption='Joas Sebola Tsiri', width=200)
+		st.image("resources/imgs/Malibongwe_image.jpg",caption='Malibongwe Shange', width=200)
+		st.image("resources/imgs/Tsepo_image.jpg",caption='Tsepo Lourance Sehaole', width=200)
+		st.image("resources/imgs/christinah_image.jpg",caption='Christinah Chokwe', width=200)
+		st.image("resources/imgs/HJ_image1.jpg",caption='Hendrik van den Berg', width=200)
+
 
 		edsa_graphic = Image.open("resources/imgs/edsa.jpg")
 		st.image(edsa_graphic)
